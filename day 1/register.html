@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      .content {
+        margin-top: 3em;
+        text-align: center;
+        height: 30rem;
+        width: 100%;
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+      }
+      .login_box {
+        width: 30%;
+        border: 0.1rem black solid;
+        border-radius: 10px 25px;
+      }
+      .login_box:hover {
+        background-color: aliceblue;
+        box-shadow: 2px 2px 100px rgb(136, 211, 211);
+      }
+
+      button {
+        background-color: white;
+        margin: 3% auto;
+        display: block;
+        height: 1.5rem;
+        width: 6rem;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: yellow;
+      }
+      a {
+        text-decoration: none;
+      }
+      #back:hover {
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        padding: 5px;
+      }
+      input {
+        border-radius: 50px;
+        height: 23px;
+        width: 18rem;
+        padding: 0 20px;
+      }
+    </style>
+    <header>
+      <h1>Create a New Account</h1>
+    </header>
+    <main>
+      <div class="content">
+        <div class="login_box">
+          <p>Name</p>
+          <input type="text" placeholder="enter name" size="20" />
+          <p>E-mail</p>
+          <input type="email" placeholder="email" />
+          <p>Create a Username</p>
+          <input type="text" placeholder="Username" />
+          <p>Enter new password</p>
+          <input type="password" placeholder="enter password" />
+          <p>Confirm new password</p>
+          <input type="password" placeholder="re-enter" />
+          <a href="/web tech/HTML/Task/1/home.html"
+            ><button>Save Details</button></a
+          >
+          <a href="login_a.html" id="back">Back</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
