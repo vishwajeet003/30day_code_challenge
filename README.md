@@ -6,8 +6,8 @@ This repository documents my journey of coding and learning something new every 
 ---
 
 ## 📅 Challenge Timeline  
-- **Start Date:** [Insert Start Date]  
-- **End Date:** [Insert End Date]  
+- **Start Date:** 19-JAN-2025  
+- **End Date:** N/A 
 
 ---
 
